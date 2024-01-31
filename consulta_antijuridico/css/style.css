@@ -1,0 +1,159 @@
+.wrapper{ margin: 80px 0; }
+.thumb {
+    width: 70px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+select{
+    display: none !important;
+}
+.video_box {
+    background: rgba(0, 0, 0, 0.54);
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 555;
+    display: none;
+}
+.contenedor-tabla{
+    width: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.video_inner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 430px;
+	height: 280px;
+	background: #fff;
+    padding: 15px;
+
+}
+#persons{
+    max-height: 100%;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(158, 158, 158); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #585858; 
+  }
+
+
+table{
+    border-radius: 25px 0px;
+}
+table thead{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: #3B4044;
+}
+table thead .border-top-left{
+    border-radius: 45px 0px 0px 0px;
+}
+table thead .border-top-right{
+    border-radius: 0px 45px 0px 0px;
+}
+table thead th{
+    vertical-align: middle !important;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table tbody{
+    text-align: center;
+    color: #6b6e70;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table tbody .no-center{
+    text-align: justify;
+}
+.modal-close {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background: #d64a4a;
+    padding: 0px 11px;
+    color: #fff;
+    font-size: 34px;
+    line-height: normal;
+    right: -42px;
+    cursor: pointer;
+}
+.video_body{
+	width: 400px;
+	height: 250px;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+}
+.header img{
+    margin-top: 10px;
+    height: 90%;
+    width: auto;
+}
+.header .logo-idexud{
+    float: right;
+    margin-right: 80px;
+}
+.header .logo-ud{
+    margin-left: 80px;
+}
+.line{
+    width: 90%;
+    border: 1px solid #bdbdbd;
+    margin: 25px auto;
+}
+
+h2{
+    text-align: center;
+    margin: 10px auto;
+    text-transform: capitalize;
+}
+
+/*design close session*/
+
+.close_session{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+}
+.close_session i{
+    font-size: 40px;
+    color: #F0821A;
+}
